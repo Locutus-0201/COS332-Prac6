@@ -1,12 +1,19 @@
+//for the events file
 import java.io.File;
+//raw data recieving
 import java.io.InputStream;
+//raw data sending
 import java.io.OutputStream;
+//socket endpoints
 import java.net.Socket;
+//current date and time
 import java.time.LocalDate;
+//dynamic lists
 import java.util.ArrayList;
 import java.util.List;
+//text parsing
 import java.util.Scanner;
-
+//test
 public class ServerForPi {
 
     public static void main(String[] args) {
